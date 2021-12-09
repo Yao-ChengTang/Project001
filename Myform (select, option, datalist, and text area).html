@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <title>Panda Form</title>
+	</head>
+	<body>
+	  <form action="" method="GET">
+        <label for="thisname">Name:</label>
+        <input id="thisname" type="text" name="InputName" required placeholder="Input the Real Name"/>
+        <br />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+          <option></option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <label for="tele">Telephone:</label>
+        <input id="tele" type="text" name="telephone" />
+        <br />
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" name="email" value="" required/>
+        <br />
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age" value="18" min="0" max="150" required step="1"/>
+        <br />
+        <label for="area">Area:</label>
+        <input list="areaList" id="area" type="text" name="area" />
+        <datalist id="areaList">
+          <option value="Taipei City">Taipei</option>
+          <option value="Taichung City">Taichung</option>
+          <option value="Tainan City">Tainan</option>
+        </datalist>
+        <br />
+        <label for="suggestion">Suggestion for the Website:</label>
+        <br />
+        <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Thank you for your advice"></textarea>
+        <br />
+        0<input type="range" min="0" max="100" step="10" name="number" value="" />100
+        <br />
+        <input id="checkbox" type="checkbox" name="news" value="newspaper" checked/>
+        <label for="checkbox">Subscribe news of Panda</label>
+        <br />
+        <label for="password">Password</label>
+        <input id="password" type="password" minlength="8" maxlength="12" name="" value="" />
+        <br />
+        <input type="file" name="file">
+        <br />
+        <button type="submit">Submit</button>
+    </form> 
+	</body>
+</html>
