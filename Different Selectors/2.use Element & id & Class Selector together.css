@@ -1,0 +1,4 @@
+/* use Element & id & Class Selector together */
+p.greenText {
+    color: greenyellow;
+}

@@ -1,0 +1,4 @@
+/* Grouping Selector */
+h1, h2, table{
+    color: hotpink;
+}

@@ -1,0 +1,4 @@
+/* Attribute Selector */
+input[type="text"]{
+    color: sandybrown;
+}

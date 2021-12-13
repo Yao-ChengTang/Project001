@@ -1,0 +1,29 @@
+/* Element Selector */
+h1 {
+    color: green;
+  }
+  
+h2 {
+    color: blue;
+  }
+  
+p {
+    color: orange;
+  }
+
+/* id Selector */
+/* 要先在.html內之tag加上id的標籤，id是身分證的概念，只能一人獨有*/
+/* 由#起頭開始寫 */
+#redText {
+    color: red;
+}
+
+/* Class Selector */
+/* 要先在.html內之tag加上class的標籤，class是箱子的概念，可以多人共有 */
+/* 由.起頭開始寫 */
+.greenText {
+    color: greenyellow;
+}
+.largeText {
+  font-size: 3rem;
+}
