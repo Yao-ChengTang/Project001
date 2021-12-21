@@ -1,0 +1,10 @@
+h1 {
+    background-color: aqua;
+    color: rebeccapurple;
+}
+
+body {
+    background-image: url("../image/pandaIcon.png");
+    background-size: cover;
+    background-position: center;
+}

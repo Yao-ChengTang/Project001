@@ -1,0 +1,13 @@
+p {
+    font-size: 2rem;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 3em;
+    letter-spacing: .2rem;
+    text-indent: 4rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: green;
+  }
