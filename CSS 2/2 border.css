@@ -1,0 +1,7 @@
+/* 設定border */
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    border: 10px solid rgb(120, 170, 63);
+}

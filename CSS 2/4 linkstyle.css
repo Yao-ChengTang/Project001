@@ -1,0 +1,11 @@
+.linkstyle {
+    background-color: cyan;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+}
+
+
+.linkstyle:hover {
+    background-color:blue;
+}

@@ -1,0 +1,22 @@
+/* 設定padding上、右、下、左分別為2rem 3rem 4rem 5rem */
+button.example {
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+}
+
+/* 快速設定padding上、右、下、左分別為2rem 3rem 4rem 5rem */
+button.example {
+    padding: 2rem 3rem 4rem 5rem;
+}
+
+/* 快速設定padding上、下為2rem，左、右為3rem */
+button.example {
+    padding: 2rem 3rem;
+}
+
+/* 快速設定padding上、下、左、右為2rem */
+button.example {
+    padding: 2rem;
+}

@@ -1,0 +1,30 @@
+/* 設定margin上、右、下、左分別為2rem 3rem 4rem 5rem */
+h1 {
+    background-color: blue;
+    color: white;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+}
+
+/* 快速設定margin上、右、下、左分別為2rem 3rem 4rem 5rem */
+h1 {
+    background-color: blue;
+    color: white;
+    margin: 2rem 3rem 4rem 5rem;
+}
+
+/* 快速設定margin上、下為2rem，左、右為3rem */
+h1 {
+    background-color: blue;
+    color: white;
+    margin: 2rem 3rem;
+}
+
+/* 快速設定margin上、下、左、右為2rem */
+h1 {
+    background-color: blue;
+    color: white;
+    margin: 2rem;
+}
