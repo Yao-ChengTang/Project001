@@ -9,3 +9,9 @@
 .linkstyle:hover {
     background-color:blue;
 }
+
+.linkstyle {
+    display: block;
+    width: 10vw;
+    height: 50vh;
+}

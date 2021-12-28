@@ -1,0 +1,25 @@
+div.container {
+    width: 500px;
+    height: 2000px;
+    background-color: black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: green;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+.box3 {
+    background-color: purple;
+}

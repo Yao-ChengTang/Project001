@@ -1,0 +1,19 @@
+/* %的應用方式 */
+div.boxbig {
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+}
+
+div.boxsmall {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+/* vw, vh的應用方式 */
+div.boxbig {
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+}
