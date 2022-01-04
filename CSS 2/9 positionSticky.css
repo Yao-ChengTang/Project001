@@ -1,0 +1,26 @@
+/* PositionSticky */
+div.container {
+    width: 500px;
+    height: 2000px;
+    background-color: black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: green;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.box3 {
+    background-color: purple;
+}

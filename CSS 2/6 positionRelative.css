@@ -1,3 +1,4 @@
+/* PositionRelative */
 div.container {
     width: 500px;
     height: 2000px;
@@ -11,15 +12,22 @@ div.container {
 
 .box1 {
     background-color: orange;
+    position: relative;
+    z-index: 3;
 }
 
 .box2 {
     background-color: green;
     position: relative;
-    left: 200px;
-    top: 200px;
+    bottom: 200px;
+    left: 100px;
+    z-index: 2;
 }
 
 .box3 {
     background-color: purple;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
 }

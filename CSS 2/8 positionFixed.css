@@ -1,0 +1,27 @@
+/* PositionFixed */
+div.container {
+    width: 500px;
+    height: 2000px;
+    background-color: black;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: green;
+    position: fixed;
+    top: 200px;
+    width: 100%;
+}
+
+.box3 {
+    background-color: purple;
+}
