@@ -35,3 +35,33 @@ textarea:hover {
 tr:nth-child(2) {
   color: orange;
 }
+
+
+/* table styling*/
+table,
+th,
+td {
+    border-bottom: 1px solid rgb(92, 206, 191);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.5rem 0.75rem;
+}
+
+th {
+    background-color: rgb(177, 69, 112);
+    color: white;
+    font-size: 1.5rem;
+}
+
+td:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+table {
+    width: 500px;
+    height: 300px;
+}

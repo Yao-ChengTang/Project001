@@ -1,0 +1,10 @@
+/* 轉場 */
+h1 {
+    /* property name, duration, timing function */
+    transition: all 1s ease-in-out;
+}
+
+h1:hover{
+    background-color: greenyellow;
+    color: white;
+}
