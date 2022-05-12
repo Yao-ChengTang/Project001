@@ -1,0 +1,37 @@
+div.container {
+    /* 將container高度設為600px */
+    height: 600px;
+    border: 3px solid black;
+    /* 將div.container的display設定為flex，而非以往的block、inline或inline-block */
+    display:flex;
+    /* flex-direction的排版方向預設為row，也可以設定成row-reverse, column, column-reverse */
+    flex-direction: row;
+    /* flex-wrap是空間不足時，要不要往後延伸，選nowrap就是不要，所以box超出部份會往下排版 */
+    flex-wrap: wrap;
+    /* flex-start, flex-end, center */
+    /* align-items: center; */
+}
+
+.box {
+    /* 這邊有unit setting for width=200px，不然寬度會以盒子內的內容(文字長度)為主 */
+    width: 100px;
+    /* 這邊有unit setting for height=200px，不然寬度會以盒子內的內容(文字長度)為主 */
+    /* height: 100px; */
+    /* 設定flex-grow & flex-basis */
+}
+
+.box1 {
+    background-color: orange;
+}
+.box2 {
+    background-color: aqua;
+}
+.box3 {
+    background-color: blueviolet;
+}
+.box4 {
+    background-color: crimson;
+}
+.box5 {
+    background-color: greenyellow;
+}

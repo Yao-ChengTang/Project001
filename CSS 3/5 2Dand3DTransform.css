@@ -1,0 +1,50 @@
+div.container {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: all 1s;
+    position: relative;
+    top: 200px;
+    left: 200px
+}
+
+/* 2D Transform */
+/* translate */
+div.box:hover {
+    transform: translate(-50%, -50%);
+}
+
+/* rotate */
+div.box:hover{
+    transform: rotate(90deg);
+}
+
+/* scale */
+div.box:hover {
+    transform: scale(2,5);
+}
+
+/* 3D Transform */
+/* rotateX, rotateY, rotateZ */
+div.box:hover{
+    transform: rotateX(90deg);
+}
+
+div.box:hover{
+    transform: rotateY(90deg);
+}
+
+div.box:hover{
+    transform: rotateZ(90deg);
+}
+
+div.box:hover {
+    transform: rotate3d(1, 0, 1, 60deg);
+}

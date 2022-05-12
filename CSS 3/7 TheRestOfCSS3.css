@@ -1,0 +1,31 @@
+/* Border-radius 把邊角修成圓弧形、在CSS當中做出圓形
+Overflow 超出範圍時可以怎麼做，hidden 藏起、scroll 下拉桿
+Float and Clear 很早期學習CSS排版會用的方法，現在已經不太使用，改用下一章節學的Flexbox */
+div.container {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    overflow:scroll;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    animation: cross 3s ease-in forwards;
+}
+
+@keyframes cross {
+    from {
+        background-color: aqua;
+        top:0;
+        left: 0;
+    }
+    to {
+        background-color: red;
+        top: 800px;
+        left: 400px;
+    }
+}
