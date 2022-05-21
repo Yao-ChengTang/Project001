@@ -8,13 +8,14 @@ div.container {
     flex-direction: row;
     /* flex-wrap是空間不足時，要不要往後延伸，選nowrap就是不要，所以box超出部份會往下排版 */
     flex-wrap: wrap;
-    /* flex-start, flex-end, center */
-    /* align-items: center; */
+    /* flex-start, flex-end, center, stretch(預設)*/
+    align-items: flex-end;
 }
 
 .box {
     /* 這邊有unit setting for width=200px，不然寬度會以盒子內的內容(文字長度)為主 */
     width: 100px;
+    height: 100px;
     /* 這邊有unit setting for height=200px，不然寬度會以盒子內的內容(文字長度)為主 */
     /* height: 100px; */
     /* 設定flex-grow & flex-basis */
